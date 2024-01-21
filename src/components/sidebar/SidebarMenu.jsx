@@ -59,8 +59,7 @@ const SidebarMenu = ({ route, showAnimation, isOpen, setIsOpen }) => {
                                 initial="hidden"
                                 animate="show"
                                 exit="hidden"
-                                className="link_text"
-                            >
+                                className="link_text">
                                 {route.name}
                             </motion.div>
                         )}
